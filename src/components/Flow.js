@@ -2,10 +2,12 @@ export default class Flow {
   type = '';
   duration = '';
   color = '';
+  id = '';
 
-  constructor(flowType, flowDuration) {
+  constructor(flowType, flowDuration, id) {
     this.type = flowType;
     this.duration = flowDuration;
+    this.id = id;
     switch (flowType) {
       case 'Grind':
         this.color = '#0F7BE8';

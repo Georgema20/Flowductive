@@ -4,7 +4,7 @@ import FlowsPanel from './components/FlowsPanel.vue';
 
 <template>
   <div class="background">
-    <FlowsPanel />
+    <FlowsPanel :scale="5" />
   </div>
 </template>
 
